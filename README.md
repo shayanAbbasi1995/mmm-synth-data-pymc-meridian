@@ -40,7 +40,7 @@ Then open the notebook and select the `mmm-pymc-meridian` kernel. The environmen
 
 ## Running
 
-Run all cells from top to bottom. A full run takes about 20 minutes on a modern multi-core CPU. For live demonstrations, set `FAST_MODE = True` in the setup cell; chains are then half as long, and the numbers differ slightly from those quoted in the text.
+Run all cells from top to bottom. A full run takes about 20 minutes on a modern multi-core CPU. For live demonstrations, set `FAST_MODE = True` in the setup cell: chains are then half as long and the run takes about 12 minutes. The numbers differ slightly from those quoted in the text and the convergence diagnostics are weaker.
 
 The notebook is committed with its outputs, so it can also be read without running anything.
 
