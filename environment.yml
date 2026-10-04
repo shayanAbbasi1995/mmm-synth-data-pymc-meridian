@@ -1,0 +1,14 @@
+# Conda supplies Python and the C++ compiler that PyMC needs on Windows;
+# pip then installs the exact pinned versions from requirements.txt.
+name: mmm-pymc-meridian
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - m2w64-toolchain
+  - mkl
+  - mkl-service
+  - libpython
+  - pip
+  - pip:
+      - -r requirements.txt

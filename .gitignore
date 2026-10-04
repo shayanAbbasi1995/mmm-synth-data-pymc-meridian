@@ -1,0 +1,11 @@
+# MLflow local tracking store (regenerated when the notebook runs)
+mlflow.db
+mlruns/
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
